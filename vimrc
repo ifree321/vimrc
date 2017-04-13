@@ -62,8 +62,6 @@ let g:tagbar_width=35
 let g:tagbar_autofocus=1
 nmap <F8> :TagbarToggle<CR>
 
-
-
 ""rubocop配置
 "let g:vimrubocop_config = '~/.vim/bundle/rubocop.yml'
 "let g:vimrubocop_keymap = 0
@@ -147,8 +145,6 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-
-
 " ============== Vundle part =================
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -158,7 +154,6 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
-"
 " original repos on github
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
@@ -246,8 +241,6 @@ Bundle 'tpope/vim-fugitive'
 "Bundle 'scrooloose/nerdtree'
 "Bundle 'thoughtbot/vim-rspec'
 "Bundle 'tpope/vim-bundler'
-
-
 
 set list lcs=tab:\|\
 "let g:indentLine_setColors = 0
